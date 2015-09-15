@@ -41,7 +41,9 @@ Slides on this topic start here:
 ### IPython Notebook
 A live demo will be given during the masterclass.
 
-Read and experiment further the IPython Notebook environment with [this IPython Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb)
+Experiment further with the IPython Notebook environment with [this IPython Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb)
+
+Try to clone or download it, before opening it, running and modifying its cells.
 
 ### Python basics
 Times to get your hands dirty. Read and test for yourself the examples provided in: [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html)
