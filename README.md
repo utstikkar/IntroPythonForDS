@@ -13,6 +13,7 @@ This repo contains the teaching material for the Introduction to Python (and use
  * [IPython Notebook](#ipython-notebook)
  * [Python basics](#python-basics)
 * [NumPy and SciPy](#numpy-and-scipy)
+ * [NumPy](#numpy)
 
 ## About me
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
@@ -52,6 +53,12 @@ Times to get your hands dirty. Read and test for yourself the examples provided 
 Practice those examples using alternatively python files, the IPython interpreter and an IPython Notebook.
 
 ## NumPy and SciPy
+
+### NumPy
+Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial).
+
+Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html)
+
 
 ## License
 
