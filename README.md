@@ -13,7 +13,7 @@ Slides for this section can be found [here](https://slides.com/utstikkar/introto
 
 ## license
 
-This repository contains a variety of content; some developed by Amélie Anglade, some derived from or largely inspired by third-parties' work, and some entirely from third-parties.  
+This repository contains a variety of content: some developed by Amélie Anglade, some derived from or largely inspired by third-parties' work, and some entirely from third-parties.  
 The third-party content is distributed under the license provided by those parties. Any derivative work respects the original licenses, and credits its initial authors. 
 
 The content developed by Amélie Anglade is distributed under the following license:
