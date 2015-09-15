@@ -20,23 +20,23 @@ Slides for this section can be found [here](https://slides.com/utstikkar/introto
 Slide deck for this entire section is available [here](https://slides.com/utstikkar/introtopython-pythonproglanguage).
 
 ### Why Python?
-Slides on this topic start here:
+Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/1)
 
 ### Python for DS Components
-Slides on this topic start here:
+Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/5)
 
 ### Python 2 vs. Python 3
-Slides on this topic start here:
+Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/6)
 
 A great [ipython notebook](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/key_differences_between_python_2_and_3.ipynb) covering the main differences has been written by Sebastian Raschka.
 
 To keep your code compatible with both Python 2 and Python 3, you might also want to use [this Cheat Sheet](http://python-future.org/compatible_idioms.html#cheat-sheet-writing-python-2-3-compatible-code).
 
 ### Installing Python and all useful packages
-Slides on this topic start here:
+Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/10)
 
 ### Running the IPython interpreter and a python file
-Slides on this topic start here:
+Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/12)
 
 ### IPython Notebook
 A live demo will be given during the masterclass.
