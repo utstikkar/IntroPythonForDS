@@ -10,6 +10,7 @@ This repo contains the teaching material for the Introduction to Python (and use
  * [Python 2 vs. Python 3](#python-2-vs-python-3)
  * [Installing Python and all useful packages](#installing-python-and-all-useful-packages)
  * [Running the IPython interpreter and a python file](#running-the-ipython-interpreter-and-a-python-file)
+ * [IPython Notebook](#ipython-notebook)
  * [Python basics](#python-basics)
 
 ## About me
@@ -37,8 +38,15 @@ Slides on this topic start here:
 ### Running the IPython interpreter and a python file
 Slides on this topic start here:
 
+### IPython Notebook
+A live demo will be given during the masterclass.
+
+Read and experiment further the IPython Notebook environment with [this IPython Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb)
+
 ### Python basics
 Times to get your hands dirty. Read and test for yourself the examples provided in: [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html)
+
+Practice those examples using alternatively python files, the IPython interpreter and an IPython Notebook.
 
 ## License
 
