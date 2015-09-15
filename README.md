@@ -30,6 +30,7 @@ A great [ipython notebook](http://nbviewer.ipython.org/github/rasbt/python_refer
 To keep your code compatible with both Python 2 and Python 3, you might also want to use [this Cheat Sheet](http://python-future.org/compatible_idioms.html#cheat-sheet-writing-python-2-3-compatible-code).
 
 ### Installing Python and all useful packages
+Slides on this topic start here:
 
 ## License
 
