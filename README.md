@@ -1,6 +1,12 @@
 # Introduction to Python For Data Science
 This repo contains the teaching material for the Introduction to Python (and useful libraries) masterclass at the [Data Science Retreat](http://datascienceretreat.com/).
 
+## Table of Content
+
+* [About Me](#about-me)
+
+## About me
+
 ## license
 
 This repository contains a variety of content; some developed by Amélie Anglade, some derived from or largely inspired by third-parties' work, and some entirely from third-parties.  
