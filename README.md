@@ -13,12 +13,20 @@ This repo contains the teaching material for the Introduction to Python (and use
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
 
 ## The Python Programming Language
+Slide deck for this entire section is available [here](https://slides.com/utstikkar/introtopython-pythonproglanguage).
 
 ### Why Python?
+Slides on this topic start here:
 
 ### Python for DS Components
+Slides on this topic start here:
 
 ### Python 2 vs. Python 3
+Slides on this topic start here:
+
+A great [ipython notebook](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/key_differences_between_python_2_and_3.ipynb) covering the main differences has been written by Sebastian Raschka.
+
+To keep your code compatible with both Python 2 and Python 3, you might also want to use [this Cheat Sheet](http://python-future.org/compatible_idioms.html#cheat-sheet-writing-python-2-3-compatible-code).
 
 
 ## License
