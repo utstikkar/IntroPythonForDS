@@ -6,6 +6,8 @@ This repo contains the teaching material for the Introduction to Python (and use
 * [About Me](#about-me)
 * [The Python Programming Language](#the-python-programming-language)
  * [Why Python?](#why-python)
+ * [Python for DS Components](#python-for-DS-components)
+ * [Python 2 vs. Python 3](#python-2-vs-python-3)
 
 ## About me
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
@@ -13,6 +15,11 @@ Slides for this section can be found [here](https://slides.com/utstikkar/introto
 ## The Python Programming Language
 
 ### Why Python?
+
+### Python for DS Components
+
+### Python 2 vs. Python 3
+
 
 ## License
 
