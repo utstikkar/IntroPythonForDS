@@ -12,8 +12,10 @@ This repo contains the teaching material for the Introduction to Python (and use
  * [Running the IPython interpreter and a python file](#running-the-ipython-interpreter-and-a-python-file)
  * [IPython Notebook](#ipython-notebook)
  * [Python basics](#python-basics)
-* [NumPy and SciPy](#numpy-and-scipy)
+* [NumPy, Matplotlib and SciPy](#numpy-and-scipy)
  * [NumPy](#numpy)
+ * [Matplotlib](#matplotlib)
+ * [SciPy](#scipy)
 
 ## About me
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
@@ -48,7 +50,7 @@ Experiment further with the IPython Notebook environment with [this IPython Note
 Try to clone or download it, before opening it, running and modifying its cells.
 
 ### Python basics
-Times to get your hands dirty. Read and test for yourself the examples provided in: [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html)
+Times to get your hands dirty. Read and test for yourself the examples provided in: [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html).
 
 Practice those examples using alternatively python files, the IPython interpreter and an IPython Notebook.
 
@@ -57,8 +59,15 @@ Practice those examples using alternatively python files, the IPython interprete
 ### NumPy
 Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial).
 
-Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html)
+Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html).
 
+### Matplotlib
+Learn the basics and some more advanced plotting tricks in Matplotlib with this [hands-on tutorial](http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html).
+
+### SciPy
+SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python.
+
+[Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.
 
 ## License
 
