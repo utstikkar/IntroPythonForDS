@@ -6,6 +6,7 @@ This repo contains the teaching material for the Introduction to Python (and use
 * [About Me](#about-me)
 
 ## About me
+Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
 
 ## license
 
