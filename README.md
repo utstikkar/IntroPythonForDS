@@ -5,11 +5,14 @@ This repo contains the teaching material for the Introduction to Python (and use
 
 * [About Me](#about-me)
 * [The Python Programming Language](#the-python-programming-language)
+ * [Why Python?](#why-python)
 
 ## About me
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
 
 ## The Python Programming Language
+
+### Why Python?
 
 ## license
 
