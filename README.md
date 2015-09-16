@@ -58,7 +58,7 @@ Practice those examples using alternatively python files, the IPython interprete
 ## NumPy and SciPy
 
 ### NumPy
-Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial).
+Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). Note: if this link returns an error, move to the [PDF version](https://docs.google.com/viewer?url=http://www.cs.man.ac.uk/~barry/mydocs/MyCOMP28512/MS15_Notes/PyRefs/Tentative_NumPy_Tutorial.pdf).
 
 Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html).
 
