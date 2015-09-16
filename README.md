@@ -16,6 +16,7 @@ This repo contains the teaching material for the Introduction to Python (and use
  * [NumPy](#numpy)
  * [Matplotlib](#matplotlib)
  * [SciPy](#scipy)
+* [Pandas](#pandas)
 
 ## About me
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
@@ -68,6 +69,11 @@ Learn the basics and some more advanced plotting tricks in Matplotlib with this 
 SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python.
 
 [Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.
+
+For those willing to go even further I recommend having a look at thise IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).
+
+## Pandas
+
 
 ## License
 
