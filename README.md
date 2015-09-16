@@ -89,7 +89,7 @@ Pandas is also a great library to clean and preprocess your data. [Here is how](
 
 ### Time Series
 Finally pandas is tailored for time series analysis and operations. So let's have a closer look at this by working on some stock market data.
-For this go ahead and work with two IPython Notebooks in the folder [Time Series](). 
+For this go ahead and work with two IPython Notebooks in the folder [Time Series](https://github.com/utstikkar/IntroPythonForDS/tree/master/time_series). 
 
 Note: The two IPython Notebooks used here are forked from [Jeremy Chen's Introduction to Python and Pandas Course](http://jeremy-chen.org/article/201403/short-course-introduction-python-and-pandas-data-munging-and-machine-learning).
 
