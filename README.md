@@ -17,6 +17,9 @@ This repo contains the teaching material for the Introduction to Python (and use
  * [Matplotlib](#matplotlib)
  * [SciPy](#scipy)
 * [Pandas](#pandas)
+ * [Pandas Basics](#pandas-basics)
+ * [Data Munging with Pandas](#data-munging-with-pandas)
+ * [Time Series](#time-series)
 
 ## About me
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
@@ -74,6 +77,11 @@ For those willing to go even further I recommend having a look at thise IPython 
 
 ## Pandas
 
+### Pandas Basics
+
+### Data Munging with Pandas
+
+### Time Series
 
 ## License
 
