@@ -20,6 +20,8 @@ This repo contains the teaching material for the Introduction to Python (and use
  * [Pandas Basics](#pandas-basics)
  * [Data Munging with Pandas](#data-munging-with-pandas)
  * [Time Series](#time-series)
+* [Your first data analysis case](#your-first-data-analysis-case)
+* [Scikit-learn](#scikit-learn)
 
 ## About me
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
@@ -92,6 +94,20 @@ Finally pandas is tailored for time series analysis and operations. So let's hav
 Nikolay Koldunov walks is through the main times series features of pandas in two blog posts: [Time series analysis with pandas](http://earthpy.org/pandas-basics.html) and [Time series analysis with pandas Part 2](http://earthpy.org/time_series_analysis_with_pandas_part_2.html)
 
 Now you have learned enough to clean and compute some statistics on a dataset using pandas by yourself.
+
+## Your first data analysis case
+A great source of data problems nowadays is the Kaggle platform. We'll be starting today with a simple but representative dataset: [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic).
+
+IMPORTANT: _don't_ go straight for the answer, you'll compare the 'Getting Started With Python' tutorials associated with this dataset once you have given it a try by yourself. 
+
+Here are a few pointers:
+* Import the data (pandas)
+* Get a first look at it (pandas)
+* Clean it: deal with missing values, useless data, etc. (pandas)
+* Get some statistics out of your dataset, plot things out (pandas)
+* Re-arrange data, compute new interesting data from the one you have, etc. (pandas)
+
+## Scikit-learn
 
 ## License
 
