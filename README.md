@@ -113,6 +113,8 @@ During the class we will cover some basics about Machine Learning and how to app
 But if you are on your own at home following this tutorial along, here are a couple of resources you can use for that:
 the [introduction to Machine Learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html) and [scikit-learn: machine learning in Python](http://scipy-lectures.github.io/packages/scikit-learn/index.html).
 
+Now to wrap it up, apply some classification algorithms you've just learned to the Titanic dataset you cleaned and pre-analysed before. Hint: you'll have to convert your pandas data to a NumPy array for scikit-learn to be able to process it. 
+
 ## License
 
 This repository contains a variety of content: some developed by Amélie Anglade, some derived from or largely inspired by third-parties' work, and some entirely from third-parties.  
