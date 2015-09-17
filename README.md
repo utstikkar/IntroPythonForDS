@@ -80,9 +80,9 @@ For those willing to go even further I recommend having a look at these IPython 
 ### Pandas Basics
 Let's first dive into Pandas Basics, and in particular how to make use of DataFrames to deal with structured data the way you would in SQL.
 For that we'll use Greg Reda's series of 3 posts:
-[Part 1: Intro to pandas data structures](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)
-[Part 2: Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/)
-[Part 3: Using pandas with the MovieLens dataset](http://www.gregreda.com/2013/10/26/using-pandas-on-the-movielens-dataset/)
+[Part 1: Intro to pandas data structures](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/),
+[Part 2: Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/) and
+[Part 3: Using pandas with the MovieLens dataset](http://www.gregreda.com/2013/10/26/using-pandas-on-the-movielens-dataset/).
 
 ### Data Munging with Pandas
 Pandas is also a great library to clean and preprocess your data. [Here is how](http://www.analyticsvidhya.com/blog/2014/09/data-munging-python-using-pandas-baby-steps-python/).
