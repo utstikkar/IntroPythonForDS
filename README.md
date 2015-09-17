@@ -73,7 +73,7 @@ SciPy is a collection of mathematical algorithms and convenience functions built
 
 [Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.
 
-For those willing to go even further I recommend having a look at these IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).
+For those willing to go further on the statistical aspects of SciPy, I recommend having a look at these IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).
 
 ## Pandas
 
