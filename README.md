@@ -108,6 +108,10 @@ Here are a few pointers:
 * Re-arrange data, compute new interesting data from the one you have, etc. (pandas)
 
 ## Scikit-learn
+During the class we will cover some basics about Machine Learning and how to approach it with scikit-learn (on the white board).
+
+But if you are on your own at home following this tutorial along, here are a couple of resources you can use for that:
+the [introduction to Machine Learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html) and [scikit-learn: machine learning in Python](http://scipy-lectures.github.io/packages/scikit-learn/index.html).
 
 ## License
 
