@@ -73,23 +73,23 @@ SciPy is a collection of mathematical algorithms and convenience functions built
 
 [Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.
 
-For those willing to go even further I recommend having a look at thise IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).
+For those willing to go further on the statistical aspects of SciPy, I recommend having a look at these IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).
 
 ## Pandas
 
 ### Pandas Basics
 Let's first dive into Pandas Basics, and in particular how to make use of DataFrames to deal with structured data the way you would in SQL.
 For that we'll use Greg Reda's series of 3 posts:
-[Part 1: Intro to pandas data structures](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)
-[Part 2: Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/)
-[Part 3: Using pandas with the MovieLens dataset](http://www.gregreda.com/2013/10/26/using-pandas-on-the-movielens-dataset/)
+[Part 1: Intro to pandas data structures](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/),
+[Part 2: Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/) and
+[Part 3: Using pandas with the MovieLens dataset](http://www.gregreda.com/2013/10/26/using-pandas-on-the-movielens-dataset/).
 
 ### Data Munging with Pandas
 Pandas is also a great library to clean and preprocess your data. [Here is how](http://www.analyticsvidhya.com/blog/2014/09/data-munging-python-using-pandas-baby-steps-python/).
 
 ### Time Series
 Finally pandas is tailored for time series analysis and operations. So let's have a closer look at this by working on some stock market data.
-For this go ahead and work with two IPython Notebooks in the folder [Time Series](). 
+For this go ahead and work with two IPython Notebooks in the folder [Time Series](https://github.com/utstikkar/IntroPythonForDS/tree/master/time_series). 
 
 Note: The two IPython Notebooks used here are forked from [Jeremy Chen's Introduction to Python and Pandas Course](http://jeremy-chen.org/article/201403/short-course-introduction-python-and-pandas-data-munging-and-machine-learning).
 
