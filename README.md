@@ -78,7 +78,7 @@ For those willing to go further on the statistical aspects of SciPy, I recommend
 ## Pandas
 
 ### Pandas Basics
-Let's first dive into Pandas Basics, and in particular how to make use of DataFrames to deal with structured data the way you would in SQL.
+Let's first dive into Pandas Basics, and in particular how to make use of DataFrames to deal with structured data just like you would with SQL or Excel.
 For that we'll use Greg Reda's series of 3 posts:
 [Part 1: Intro to pandas data structures](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/),
 [Part 2: Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/) and
@@ -88,10 +88,10 @@ For that we'll use Greg Reda's series of 3 posts:
 Pandas is also a great library to clean and preprocess your data. [Here is how](http://www.analyticsvidhya.com/blog/2014/09/data-munging-python-using-pandas-baby-steps-python/).
 
 ### Time Series
-Finally pandas is tailored for time series analysis and operations. So let's have a closer look at this by working on some stock market data.
-For this go ahead and work with two IPython Notebooks in the folder [Time Series](https://github.com/utstikkar/IntroPythonForDS/tree/master/time_series). 
+Finally pandas is tailored for time series analysis and operations. So let's have a closer look at a real example from the Earth Sciences (but you can deal with financial data exactly the same way).
+Nikolay Koldunov walks is through the main times series features of pandas in two blog posts: [Time series analysis with pandas](http://earthpy.org/pandas-basics.html) and [Time series analysis with pandas Part 2](http://earthpy.org/time_series_analysis_with_pandas_part_2.html)
 
-Note: The two IPython Notebooks used here are forked from [Jeremy Chen's Introduction to Python and Pandas Course](http://jeremy-chen.org/article/201403/short-course-introduction-python-and-pandas-data-munging-and-machine-learning).
+Now you have learned enough to clean and compute some statistics on a dataset using pandas by yourself.
 
 ## License
 
