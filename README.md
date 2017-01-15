@@ -13,7 +13,7 @@ This repo contains the teaching material for the Introduction to Python (and use
  * [Jupyter Notebook](#jupyter-notebook)
  * [Python basics](#python-basics)
 * [Pandas](#pandas)
- * [Intro tutorial on pandas basics](#pandas-basics)
+ * [Intro tutorial on pandas basics](#intro-tutorial-on-pandas-basics)
  * [Data Munging with Pandas](#data-munging-with-pandas)
 * [Your first data analysis case](#your-first-data-analysis-case)
 * [Scikit-learn](#scikit-learn)
