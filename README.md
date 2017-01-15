@@ -15,8 +15,8 @@ This repo contains the teaching material for the Introduction to Python (and use
 * [Pandas](#pandas)
  * [Intro tutorial on pandas basics](#intro-tutorials-on-pandas-basics)
  * [Data Munging with Pandas](#data-munging-with-pandas)
-* [Your first data analysis case](#your-first-data-analysis-case)
 * [Scikit-learn](#scikit-learn)
+* [Your first data analysis case](#your-first-data-analysis-case)
 
 ## About me
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
