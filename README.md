@@ -47,7 +47,7 @@ Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pyth
 ### Jupyter Notebook
 A live demo will be given during the masterclass.
 
-Experiment further with the IPython Notebook environment with [this Jupyter Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb)
+Experiment further with the IPython Notebook environment with [this Jupyter Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb).
 Try to clone or download it, before opening it, running and modifying its cells.
 
 Many more Jupyter features in [this blog post](http://arogozhnikov.github.io/2016/09/10/jupyter-features.html).
@@ -56,6 +56,10 @@ Many more Jupyter features in [this blog post](http://arogozhnikov.github.io/201
 Times to get your hands dirty. Read and test for yourself the examples provided in: [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html).
 
 Practice those examples using alternatively python files, the IPython interpreter and an IPython Notebook.
+
+To go further:
+* [Python interactive exercises](http://codingbat.com/python)
+* [Join the codewars competitions](http://www.codewars.com/?language=python)
 
 ## Pandas
 
