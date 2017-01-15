@@ -10,7 +10,7 @@ This repo contains the teaching material for the Introduction to Python (and use
  * [Python 2 vs. Python 3](#python-2-vs-python-3)
  * [Installing Python and all useful packages](#installing-python-and-all-useful-packages)
  * [Running the IPython interpreter and a python file](#running-the-ipython-interpreter-and-a-python-file)
- * [IPython Notebook](#ipython-notebook)
+ * [Jupyter Notebook](#jupyter-notebook)
  * [Python basics](#python-basics)
 * [Pandas](#pandas)
  * [Pandas Basics](#pandas-basics)
@@ -34,7 +34,7 @@ Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pyth
 ### Python 2 vs. Python 3
 Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/6)
 
-A great [ipython notebook](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/key_differences_between_python_2_and_3.ipynb) covering the main differences has been written by Sebastian Raschka.
+A great [notebook](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/key_differences_between_python_2_and_3.ipynb) covering the main differences has been written by Sebastian Raschka.
 
 To keep your code compatible with both Python 2 and Python 3, you might also want to use [this Cheat Sheet](http://python-future.org/compatible_idioms.html#cheat-sheet-writing-python-2-3-compatible-code).
 
@@ -44,12 +44,14 @@ Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pyth
 ### Running the IPython interpreter and a python file
 Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/12)
 
-### IPython Notebook
+### Jupyter Notebook
 A live demo will be given during the masterclass.
 
-Experiment further with the IPython Notebook environment with [this IPython Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb)
+Experiment further with the IPython Notebook environment with [this Jupyter Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb)
 
 Try to clone or download it, before opening it, running and modifying its cells.
+
+Many more Jupyter features in this [blog post](http://arogozhnikov.github.io/2016/09/10/jupyter-features.html).
 
 ### Python basics
 Times to get your hands dirty. Read and test for yourself the examples provided in: [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html).
