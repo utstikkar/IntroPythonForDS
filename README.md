@@ -13,9 +13,8 @@ This repo contains the teaching material for the Introduction to Python (and use
  * [Jupyter Notebook](#jupyter-notebook)
  * [Python basics](#python-basics)
 * [Pandas](#pandas)
- * [Pandas Basics](#pandas-basics)
+ * [Intro tutorial on pandas basics](#pandas-basics)
  * [Data Munging with Pandas](#data-munging-with-pandas)
- * [Time Series](#time-series)
 * [Your first data analysis case](#your-first-data-analysis-case)
 * [Scikit-learn](#scikit-learn)
 
@@ -61,43 +60,32 @@ To go further:
 * [Python interactive exercises](http://codingbat.com/python)
 * [Join the codewars competitions](http://www.codewars.com/?language=python)
 
-## Pandas
+## Pandas 
 
-### Pandas Basics
-Let's first dive into Pandas Basics, and in particular how to make use of DataFrames to deal with structured data just like you would with SQL or Excel.
-For that we'll use Greg Reda's series of 3 posts:
-[Part 1: Intro to pandas data structures](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/),
-[Part 2: Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/) and
-[Part 3: Using pandas with the MovieLens dataset](http://www.gregreda.com/2013/10/26/using-pandas-on-the-movielens-dataset/).
+### Intro tutorials on pandas basics
 
-### Data Munging with Pandas
-Pandas is also a great library to clean and preprocess your data. [Here is how](http://www.analyticsvidhya.com/blog/2014/09/data-munging-python-using-pandas-baby-steps-python/).
+ * [Tutorial: Data structures](https://github.com/luciasantamaria/pandas-tutorial/blob/master/intro-to-pandas-1-Data-Structures.ipynb)
+ * [Tutorial: Working with dataframes](https://github.com/luciasantamaria/pandas-tutorial/blob/master/intro-to-pandas-2-Working-With-DataFrames.ipynb)
+ * [Tutorial: Using pandas on the MovieLens dataset](https://github.com/luciasantamaria/pandas-tutorial/blob/master/intro-to-pandas-3-Pandas-On-MovieLens.ipynb)
 
-### Time Series
-Finally pandas is tailored for time series analysis and operations. So let's have a closer look at a real example from the Earth Sciences (but you can deal with financial data exactly the same way).
-Nikolay Koldunov walks is through the main times series features of pandas in two blog posts: [Time series analysis with pandas](http://earthpy.org/pandas-basics.html) and [Time series analysis with pandas Part 2](http://earthpy.org/time_series_analysis_with_pandas_part_2.html)
+### Data munging with pandas
 
-Now you have learned enough to clean and compute some statistics on a dataset using pandas by yourself.
-
-## Your first data analysis case
-A great source of data problems nowadays is the Kaggle platform. We'll be starting today with a simple but representative dataset: [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic).
-
-IMPORTANT: _don't_ go straight for the answer, you'll compare the 'Getting Started With Python' tutorials associated with this dataset once you have given it a try by yourself. 
-
-Here are a few pointers:
-* Import the data (pandas)
-* Get a first look at it (pandas)
-* Clean it: deal with missing values, useless data, etc. (pandas)
-* Get some statistics out of your dataset, plot things out (pandas)
-* Re-arrange data, compute new interesting data from the one you have, etc. (pandas)
+ * [Exercises](https://github.com/luciasantamaria/pandas-tutorial/blob/master/data-munging-with-pandas.ipynb)
 
 ## Scikit-learn
-During the class we will cover some basics about Machine Learning and how to approach it with scikit-learn (on the white board).
 
-But if you are on your own at home following this tutorial along, here are a couple of resources you can use for that:
-the [introduction to Machine Learning with scikit-learn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html) and [scikit-learn: machine learning in Python](http://scipy-lectures.github.io/packages/scikit-learn/index.html).
+ * Introduction to machine learning with scikit-learn [slides](http://slides.com/luciasantamaria/intro-machine-learning-scikit-learn#/)
+ * Doing machine learning with scikit-learn [slides](https://github.com/luciasantamaria/pandas-tutorial/blob/master/scikit-learn.pdf)
+ * [General concepts on machine learning](http://www.astroml.org/sklearn_tutorial/general_concepts.html)
+ * [Tutorial: Introduction to scikit-learn](https://github.com/luciasantamaria/pandas-tutorial/blob/master/intro-to-scikit-learn-1-Basics.ipynb)
 
-Now to wrap it up, apply some classification algorithms you've just learned to the Titanic dataset you cleaned and pre-analysed before. Hint: you'll have to convert your pandas data to a NumPy array for scikit-learn to be able to process it. 
+## Your first data analysis case
+
+A great source of data problems nowadays is the Kaggle platform. We'll be starting today with a simple but representative dataset: [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic).
+
+ * [Guide](https://github.com/luciasantamaria/pandas-tutorial/blob/master/titanic-machine-learning.ipynb) for orientation to approach the problem
+
+IMPORTANT: you will find plenty of materials to analyze this data, however you'll learn the most if you give the problem some thought and try out several things before resorting to ready-made answers. 
 
 ## License
 
