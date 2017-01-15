@@ -48,32 +48,14 @@ Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pyth
 A live demo will be given during the masterclass.
 
 Experiment further with the IPython Notebook environment with [this Jupyter Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb)
-
 Try to clone or download it, before opening it, running and modifying its cells.
 
-Many more Jupyter features in this [blog post](http://arogozhnikov.github.io/2016/09/10/jupyter-features.html).
+Many more Jupyter features in [this blog post](http://arogozhnikov.github.io/2016/09/10/jupyter-features.html).
 
 ### Python basics
 Times to get your hands dirty. Read and test for yourself the examples provided in: [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html).
 
 Practice those examples using alternatively python files, the IPython interpreter and an IPython Notebook.
-
-## NumPy and SciPy
-
-### NumPy
-Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). Note: if this link returns an error, move to the [PDF version](https://docs.google.com/viewer?url=http://www.cs.man.ac.uk/~barry/mydocs/MyCOMP28512/MS15_Notes/PyRefs/Tentative_NumPy_Tutorial.pdf).
-
-Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html).
-
-### Matplotlib
-Learn the basics and some more advanced plotting tricks in Matplotlib with this [hands-on tutorial](http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html).
-
-### SciPy
-SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python.
-
-[Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.
-
-For those willing to go further on the statistical aspects of SciPy, I recommend having a look at these IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).
 
 ## Pandas
 
