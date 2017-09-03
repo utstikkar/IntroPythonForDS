@@ -12,7 +12,7 @@ This repo contains the teaching material for the Introduction to Python (and use
   * [Running the IPython interpreter and a python file](#running-the-ipython-interpreter-and-a-python-file)
   * [Jupyter Notebook](#jupyter-notebook)
   * [Python basics](#python-basics)
-* [NumPy, Matplotlib and SciPy](#numpy-and-scipy)		
+* [NumPy, Matplotlib and SciPy](#numpy-matplotlib-and-scipy)		
   * [NumPy](#numpy)		
   * [Matplotlib](#matplotlib)		
   * [SciPy](#scipy)
