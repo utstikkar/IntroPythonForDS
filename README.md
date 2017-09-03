@@ -60,7 +60,7 @@ Times to get your hands dirty. Read and test for yourself the examples provided 
 
 Practice those examples using alternatively python files, the IPython interpreter and an IPython Notebook.
 
-To go further:
+To practice:
 * [Python interactive exercises](http://codingbat.com/python)
 * [Join the codewars competitions](http://www.codewars.com/?language=python)
 
