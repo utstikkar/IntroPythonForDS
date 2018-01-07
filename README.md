@@ -18,7 +18,7 @@ This repo contains the teaching material for the Introduction to Python (and use
 * [NumPy, Matplotlib and SciPy](#numpy-matplotlib-and-scipy)		
   * [NumPy](#numpy)		
   * [Matplotlib](#matplotlib)		
-* [Scikit-learn](#scikit-learn)
+  * [Scikit-learn](#scikit-learn)
 * [SciPy](#scipy)
 
 
@@ -86,8 +86,7 @@ Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercis
 ### Matplotlib		
 Learn the basics and some more advanced plotting tricks in Matplotlib with this [hands-on tutorial](http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html).	
 
-## Scikit-learn
-
+### Scikit-learn
  * Introduction to machine learning with scikit-learn [slides](http://slides.com/luciasantamaria/intro-machine-learning-scikit-learn#/)
  * Doing machine learning with scikit-learn [slides](https://github.com/luciasantamaria/pandas-tutorial/blob/master/scikit-learn.pdf)
  * [Tutorial: Introduction to scikit-learn](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-scikit-learn-1-Basics.ipynb)
