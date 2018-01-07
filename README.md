@@ -12,15 +12,15 @@ This repo contains the teaching material for the Introduction to Python (and use
   * [Running the IPython interpreter and a python file](#running-the-ipython-interpreter-and-a-python-file)
   * [Jupyter Notebook](#jupyter-notebook)
   * [Python basics](#python-basics)
-* [NumPy, Matplotlib and SciPy](#numpy-matplotlib-and-scipy)		
-  * [NumPy](#numpy)		
-  * [Matplotlib](#matplotlib)		
-  * [SciPy](#scipy)
 * [Pandas](#pandas)
   * [Intro tutorial on pandas basics](#intro-tutorials-on-pandas-basics)
   * [Data Munging with Pandas](#data-munging-with-pandas)
+* [NumPy, Matplotlib and SciPy](#numpy-matplotlib-and-scipy)		
+  * [NumPy](#numpy)		
+  * [Matplotlib](#matplotlib)		
 * [Scikit-learn](#scikit-learn)
-* [Your first data analysis case](#your-first-data-analysis-case)
+* [SciPy](#scipy)
+
 
 ## About me
 Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
@@ -64,23 +64,6 @@ To practice:
 * [Python interactive exercises](http://codingbat.com/python)
 * [Join the codewars competitions](http://www.codewars.com/?language=python)
 
-## NumPy, Matplotlib and SciPy
-
-### NumPy		
-Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). Note: if this link returns an error, move to the [PDF version](https://docs.google.com/viewer?url=http://www.cs.man.ac.uk/~barry/mydocs/MyCOMP28512/MS15_Notes/PyRefs/Tentative_NumPy_Tutorial.pdf).		
-		
-Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html).		
-
-### Matplotlib		
-Learn the basics and some more advanced plotting tricks in Matplotlib with this [hands-on tutorial](http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html).		
-	
-### SciPy		
-SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python.		
-		
-[Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.		
-
-For those willing to go further on the statistical aspects of SciPy, I recommend having a look at these IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).		
-
 ## Pandas 
 
 ### Intro tutorials on pandas basics
@@ -93,20 +76,28 @@ For those willing to go further on the statistical aspects of SciPy, I recommend
 
  * [Exercises](https://github.com/utstikkar/pandas-tutorial/blob/master/data-munging-with-pandas.ipynb)
 
+## NumPy, Matplotlib and scikit-learn
+
+### NumPy		
+Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). Note: if this link returns an error, move to the [PDF version](https://docs.google.com/viewer?url=http://www.cs.man.ac.uk/~barry/mydocs/MyCOMP28512/MS15_Notes/PyRefs/Tentative_NumPy_Tutorial.pdf).		
+		
+Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html).		
+
+### Matplotlib		
+Learn the basics and some more advanced plotting tricks in Matplotlib with this [hands-on tutorial](http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html).	
+
 ## Scikit-learn
 
  * Introduction to machine learning with scikit-learn [slides](http://slides.com/luciasantamaria/intro-machine-learning-scikit-learn#/)
  * Doing machine learning with scikit-learn [slides](https://github.com/luciasantamaria/pandas-tutorial/blob/master/scikit-learn.pdf)
  * [Tutorial: Introduction to scikit-learn](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-scikit-learn-1-Basics.ipynb)
  * [To go further](http://nbviewer.jupyter.org/github/jakevdp/sklearn_tutorial/blob/master/notebooks/Index.ipynb)
+	
+## SciPy		
+SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python.				
+[Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.		
 
-## Your first data analysis case
-
-A great source of data problems nowadays is the Kaggle platform. We'll be starting today with a simple but representative dataset: [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic).
-
- * [Guide](https://github.com/utstikkar/pandas-tutorial/blob/master/titanic-machine-learning.ipynb) for orientation to approach the problem
-
-IMPORTANT: you will find plenty of materials to analyze this data, however you'll learn the most if you give the problem some thought and try out several things before resorting to ready-made answers. 
+For those willing to go further on the statistical aspects of SciPy, I recommend having a look at these IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).	
 
 ## License
 
