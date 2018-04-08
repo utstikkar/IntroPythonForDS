@@ -15,7 +15,7 @@ This repo contains the teaching material for the Introduction to Python (and use
 * [Pandas](#pandas)
   * [Intro tutorial on pandas basics](#intro-tutorials-on-pandas-basics)
   * [Data Munging with Pandas](#data-munging-with-pandas)
-* [NumPy, Matplotlib and scikit-learn](#numpy-matplotlib-and-scipy)		
+* [NumPy, Matplotlib and scikit-learn](#numpy-matplotlib-and-scikit-learn)		
   * [NumPy](#numpy)		
   * [Matplotlib](#matplotlib)		
   * [Scikit-learn](#scikit-learn)
