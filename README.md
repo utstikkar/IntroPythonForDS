@@ -15,10 +15,12 @@ This repo contains the teaching material for the Introduction to Python (and use
 * [Pandas](#pandas)
   * [Intro tutorial on pandas basics](#intro-tutorials-on-pandas-basics)
   * [Data Munging with Pandas](#data-munging-with-pandas)
-* [NumPy, Matplotlib and scikit-learn](#numpy-matplotlib-and-scikit-learn)		
+* [NumPy and Matplotlib](#numpy-and-matplotlib)		
   * [NumPy](#numpy)		
-  * [Matplotlib](#matplotlib)		
+  * [Matplotlib](#matplotlib)	
+* [Scikit-learn and your first Data Science case](scikit-learn-and-your-first-data-science-case)
   * [Scikit-learn](#scikit-learn)
+  * [Your first Data Science case](#your-first-data-science-case)
 * [SciPy](#scipy)
 
 
@@ -112,7 +114,7 @@ To practice:
 
  * [Exercises](https://github.com/utstikkar/pandas-tutorial/blob/master/data-munging-with-pandas.ipynb)
 
-## NumPy, Matplotlib and scikit-learn
+## NumPy and Matplotlib
 
 ### NumPy		
 Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). Note: if this link returns an error, move to the [PDF version](https://docs.google.com/viewer?url=http://www.cs.man.ac.uk/~barry/mydocs/MyCOMP28512/MS15_Notes/PyRefs/Tentative_NumPy_Tutorial.pdf).		
@@ -122,11 +124,22 @@ Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercis
 ### Matplotlib		
 Learn the basics and some more advanced plotting tricks in Matplotlib with this [hands-on tutorial](http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html).	
 
+## Scikit-learn and your first Data Science case
+
 ### Scikit-learn
  * Introduction to machine learning with scikit-learn [slides](http://slides.com/luciasantamaria/intro-machine-learning-scikit-learn#/)
  * Doing machine learning with scikit-learn [slides](https://github.com/luciasantamaria/pandas-tutorial/blob/master/scikit-learn.pdf)
  * [Tutorial: Introduction to scikit-learn](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-scikit-learn-1-Basics.ipynb)
  * [To go further](http://nbviewer.jupyter.org/github/jakevdp/sklearn_tutorial/blob/master/notebooks/Index.ipynb)
+ 
+## Your first data science case
+
+A great source of data problems nowadays is the Kaggle platform. We'll be starting today with a simple but representative dataset: [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic).
+
+ * [Guide](https://github.com/luciasantamaria/pandas-tutorial/blob/master/titanic-machine-learning.ipynb) for orientation to approach the problem
+
+IMPORTANT: you will find plenty of materials to analyze this data, however you'll learn the most if you give the problem some thought and try out several things before resorting to ready-made answers. 
+
 	
 ## SciPy		
 SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python.				
