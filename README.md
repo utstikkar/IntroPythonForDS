@@ -18,7 +18,7 @@ This repo contains the teaching material for the Introduction to Python (and use
 * [NumPy and Matplotlib](#numpy-and-matplotlib)		
   * [NumPy](#numpy)		
   * [Matplotlib](#matplotlib)	
-* [Scikit-learn and your first Data Science case](scikit-learn-and-your-first-data-science-case)
+* [Scikit-learn and your first Data Science case](#scikit-learn-and-your-first-data-science-case)
   * [Scikit-learn](#scikit-learn)
   * [Your first Data Science case](#your-first-data-science-case)
 * [SciPy](#scipy)
