@@ -105,7 +105,6 @@ To practice:
 
 ### Intro tutorials on pandas basics
 
- * [Tutorial: Getting started with pandas](https://github.com/utstikkar/pandas-tutorial/blob/master/match_labels_exercise/exercise_pandas_basics.ipynb)
  * [Tutorial: Data structures](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-pandas-1-Data-Structures.ipynb)
  * [Tutorial: Working with dataframes](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-pandas-2-Working-With-DataFrames.ipynb)
  * [Tutorial: Using pandas on the MovieLens dataset](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-pandas-3-Pandas-On-MovieLens.ipynb)
