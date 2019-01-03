@@ -25,7 +25,7 @@ This repo contains the teaching material for the Introduction to Python (and use
 
 
 ## About me
-Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
+Slides for this section can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vTbd4eONN5nSiNaTWW3uM2RM3O0jsoVT8gQ9byqa0X5vStBZGUBfiUSM7-HegCjymaDbaUzQ-9yyvMR/pub).
 
 ## The Python Programming Language
 Slide deck for this entire section is available [here](https://slides.com/utstikkar/introtopython-pythonproglanguage).
