@@ -28,16 +28,12 @@ This repo contains the teaching material for the Introduction to Python (and use
 Slides for this section can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vTbd4eONN5nSiNaTWW3uM2RM3O0jsoVT8gQ9byqa0X5vStBZGUBfiUSM7-HegCjymaDbaUzQ-9yyvMR/pub).
 
 ## The Python Programming Language
-Slide deck for this entire section is available [here](https://slides.com/utstikkar/introtopython-pythonproglanguage).
-
-### Why Python?
-Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/1)
+Complete slides [here](https://docs.google.com/presentation/d/e/2PACX-1vRPV8i3pQw7MCa6eG-9y9LgIFREJF_3sN4opFDXQ2r_NJgea9ObLJQfj4S_CiM6Ptxs7t0WU6lCa-QH/pub?start=false&loop=false&delayms=3000), inclusive of exercises
 
 ### Python for DS Components
 Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/5)
 
 ### Python 2 vs. Python 3
-Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/6)
 
 A great [notebook](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/key_differences_between_python_2_and_3.ipynb) covering the main differences has been written by Sebastian Raschka.
 
