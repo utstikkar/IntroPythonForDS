@@ -62,11 +62,11 @@ Interactive environment for the web browser. A Jupyter notebook contains Python 
 #### Sublime2
 A general-purpose text editor that works on all systems. There are many plugins for Python available. There are a free and a commercial version available.
 
-#### Atom
-The Open Source cousin of Sublime2.
+#### Visual Studio Code
+The Open Source cousin of Sublime2, similar to Atom.
 
 #### PyCharm
-PyCharm is probably the most luxurious IDE for Python. It contains tons of functions that are a superset of all the above. PyCharm is a great choice for bigger Python projects.
+PyCharm is probably the most luxurious IDE for Python. It contains tons of functions that are a superset of all the above. PyCharm is a great choice for bigger Python projects. Free for non-commercial use.
 
 #### Notepad++
 If you must use a text editor on Windows to edit Python code, refuse to use anything worse than **Notepad++**.
