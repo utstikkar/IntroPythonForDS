@@ -112,6 +112,7 @@ It's also very useful to look at the [gallery](https://matplotlib.org/gallery.ht
 
 ## Scikit-learn and your first ML case
 
+Slides are [here](https://docs.google.com/presentation/d/e/2PACX-1vTjCOfNagJZzOjovAPgNBkVxcddNlKbWZ5oxEjicbuFyEwpAbMjG8m7x0tx3xjqUyKkoYFh0rysWRNL/pub?start=false&loop=false&delayms=3000)
 ### Scikit-learn
  * Introduction to machine learning with scikit-learn [slides](http://slides.com/luciasantamaria/intro-machine-learning-scikit-learn#/)
  * Doing machine learning with scikit-learn [slides](https://github.com/luciasantamaria/pandas-tutorial/blob/master/scikit-learn.pdf)
