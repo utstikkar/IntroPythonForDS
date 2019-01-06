@@ -83,7 +83,7 @@ I know people who are successfully using Emacs to write Python code, but haven't
 Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/12)
 
 ### Jupyter Notebook
-A live demo will be given during the masterclass.
+A live demo will be given during the masterclass. Here just a [warning note](https://docs.google.com/presentation/d/e/2PACX-1vR2ntOr6vWHgHoC0X3arDtim9fIhaoF7r6Vl5fVjxSXeXpD2NRykOSR_UyQzbtjppD2tiqwkw2peMfQ/pub?start=false&loop=false&delayms=3000)
 
 Experiment further with the IPython Notebook environment with [this Jupyter Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb).
 Try to clone or download it, before opening it, running and modifying its cells.
