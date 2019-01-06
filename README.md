@@ -12,9 +12,6 @@ This repo contains the teaching material for the Introduction to Python (and use
   * [Running the IPython interpreter and a python file](#running-the-ipython-interpreter-and-a-python-file)
   * [Jupyter Notebook](#jupyter-notebook)
   * [Python basics](#python-basics)
-* [Pandas](#pandas)
-  * [Intro tutorial on pandas basics](#intro-tutorials-on-pandas-basics)
-  * [Data Munging with Pandas](#data-munging-with-pandas)
 * [NumPy and Matplotlib](#numpy-and-matplotlib)		
   * [NumPy](#numpy)		
   * [Matplotlib](#matplotlib)	
@@ -92,6 +89,8 @@ Experiment further with the IPython Notebook environment with [this Jupyter Note
 Try to clone or download it, before opening it, running and modifying its cells.
 
 Many more Jupyter features in [this blog post](http://arogozhnikov.github.io/2016/09/10/jupyter-features.html).
+
+And of course, be aware of the fact Jupyter is NOT an IDE and can bite you in various ways: [See this presentation](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g3cb1319227_1_388)
 
 ## Git
 Slides are [here](https://docs.google.com/presentation/d/e/2PACX-1vSRDWRpbJpNmtPk5SufekG8bSbBSJGjsua-nf-BxTzS_F2qMkHwmFPzjQlnR6op2pwa0QzL-PTFGikx/pub?start=false&loop=false&delayms=3000)
