@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/theme/simple.css">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/monokai.css">
@@ -25,7 +25,9 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>Why Python?</section>
+        <section>
+            <h1>Why Python?</h1>
+        </section>
         <section>
             <ul>
                 <li>Easy to learn</li>
@@ -37,6 +39,87 @@
                 libraries and tools available, growing fast</li>
                 <li>Vibrant community, worldwide and in Berlin</li>
             </ul>
+        </section>
+        <section>
+            <h3>Install Python</h3>
+            <ul>
+                <li><strong>Recommended: Anaconda</strong>
+                    <ul>
+                        <li>For new users who want a full Python environment for Data Science</li>
+                        <li>Free and open source, download from <a href="http://continuum.io/downloads">continuum.io</a></li>
+                    </ul>
+                </li>
+                <li>Manual installation:
+                    <ul>
+                        <li>(Only) if you already have been using Python for some time</li>
+                        <li>pip install -U numpy, scipy, ipython, matplotlib, pandas, scikit-learn</li>
+                        <li>Use virtualenvs to make easier to track dependencies</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+                <h3>Use Python</h3>
+                <p style="text-align: left;">Two (three) ways</p>
+                <ol>
+                    <li>REPL (Read Evaluate print Loop), interactive</li>
+                    <li>Create python (.py) files and pass them to the interpreter</li>
+                    <li>Just use an IDE and let it invoke the interpreter for you</li>
+                </ol>
+        </section>
+        <section>
+                <dl>
+                    <dt>IPython</dt>
+                    <dd>Interactive Python shell and Jupyter, a web-based notebook. Integrate Python code with formatted text, charts and more</dd>
+                    <dt>Numpy + SciPy</dt>
+                    <dd>Provides powerful numerical array objects, and routines to manipulate them. Heavily used by the other packages</dd>
+                    <dt>Matplotlib</dt>
+                    <dd>2- and 3-D visualisations and plots​</dd>
+                    <dt>Scikit-learn</dt>
+                    <dd>Machine Learning toolbox</dd>
+                    <dt>Pandas</dt>
+                    <dd>Tools for explorative analysis</dd>
+                    <dt>Tensorflow, Keras, Pytorch</dt>
+                    <dd>(deep) neural networks</dd>
+                </dl>
+        </section>
+        <section>
+                <h3>Python 2 and Python 3</h3>
+                <p style="text-align: left;">The way Python 2 (2000) manages text, in particular non-English characters, originates problems which could be fixed only by breaking compatibility and releasing Python 3 (2008).</p>
+                <p style="text-align: left;">Many features were added to Python 3 over different versions, the latest is 3.7 (June 2018).</p>
+                <p style="text-align: left;">Python 2 does not receive new functionalities since 2010 and will not be officially supported after <strong>January 1st, 2020</strong></p>
+        </section>
+        <section>
+                <h2>Use Python 3</h2>
+                <p> (Unless you really really really need a library that works only on Python 2)</p>
+        </section>
+        <section>
+                <h3>Python 3.6 and later: f-strings</h3>
+                <pre><code data-trim class="python hljs">
+                    >>> print(f'The result of 3+2 is {3 + 2} and 1/3 is {1/3 :.3f}')
+                    The result of 3+2 is 5 and 1/3 is 0.333
+                </code></pre>
+                <p style="text-align: left;">Also good to know: type hinting, async</p>
+                <pre><code data-trim class="python hljs">
+                    def repeat(a: int, b:str) -> str:
+                        return b * a
+                    </code></pre>
+        </section>
+        <section>
+                <h3>List comprehension</h3>
+                <pre><code data-trim class="python hljs">
+                        [x*10 for x in range(1, 200) if x%2 == 0]
+                </code></pre>
+                <p style="text-align: left;">Similar for sets and dictionaries</p>
+                <pre><code data-trim class="python hljs">
+                        {x % 10 for x in range(200)}
+                        {x:x%10 for x in range(19)}
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Exercise</h3>
+                <p style="text-align: left;">Calculate the sum of all the squares between 1 and 1 million.</p>
+                <p style="text-align: left;">Remember: Python has a built-in function <strong>sum</strong> to sum all the elements of a sequence.</p>
         </section>
       </div>
     </div>
