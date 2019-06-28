@@ -26,6 +26,9 @@
             /* trick to keep a smaller font when changing theme*/
             font-size: 33px;
         }
+        mark {
+            background: #ffa050;
+        }
 
     </style>
   </head>
@@ -265,6 +268,73 @@
                         my_adder(100)
                         105
                     </code></pre>
+        </section>
+        <section>
+                <h3>Decorators</h3>
+                <p style="text-align: left;">If you write @function_name before defining a function, python will pass it to function_name and replace the original function with its output</p>
+                <p style="text-align: left;">Seems complicated, but an example can help a lot.</p>
+                <p style="text-align: left;"><strong>Example</strong>: a function that prints the value passed to the wrapped one before and after</p>
+                <p style="text-align: left;"><strong>Exercise</strong>: create a decorator which checks that a function was called with a positive number, if not does not invoke it but prints an error instead</p>
+        </section>
+        <section>
+                <h3>Classes</h3>
+                <p style="text-align: left;">OOP is a huge topic, let's review the basis.</p>
+                <p style="text-align: left;">A class defines how its instances behave. "<mark>Mars</mark>" is an instance, "<mark>Planet</mark>" is a class.</p>
+                <p style="text-align: left;">Classes can <strong>inherit</strong> from each other, for example if "GasPlanet" inherits from "Planet", it has all its characteristics plus more. "Saturn" is an instance of "GasPlanet".</p>
+                <p style="text-align: left;">Official documentation <a href="https://docs.python.org/3/tutorial/classes.html">here</a>, but is pretty dense. We'll see an example.</p>
+        </section>
+        <section>
+                <h3>Some words on coding style</h3>
+                <p style="text-align: left;">Don't spend too much time on aesthetic and nitpicking, but being consistent is useful:</p>
+                <ol>
+                        <li>Makes easier to re-read your own code</li>
+                        <li>It helps others read your code</li>
+                        <li>Gives a better impression when the code is published</li>
+                </ol>
+                <p style="text-align: left;">Python has an official style guide called <strong>PEP8</strong>, there are tools for all IDEs to check it as you type, on the long run they help make it an habit.</p>
+                <p style="text-align: left;">If you work on an existing codebase with others, stick with the existing conventions and naming.</p>
+        </section>
+        <section>
+                <h3>Naming</h3>
+                <p style="text-align: left;">Use <strong>meaningful</strong> names. No <emp>asdasd</emp></p>
+                <p style="text-align: left;"><code>UPPERCASE</code> for module constants that are never changed</p>
+                <p style="text-align: left;"><code>CamelCase</code> for classes</p>
+                <p style="text-align: left;"><code>lowercase_with_underscore</code> for everything else (variables and functions)</p>
+        </section>
+        <section>
+                <h3>Docstrings</h3>
+                <p style="text-align: left;">You can document a function like this:</p>
+                <pre><code data-trim class="python hljs">
+                def myfun(a, b):
+                    """What this function does.
+                    Some description for humans.
+                    """
+                    return a * b
+                </code></pre>
+                <p style="text-align: left;">This is the text shown by editors when you type, use it when especially the function is not obvious.</p>
+                <p style="text-align: left;">There are two mainstream standards, numpy and google, about how to format the text. Use whatever the codebase is using, or your taste.</p>
+        </section>
+        <section>
+                <h3>Tests</h3>
+                <p style="text-align: left;">When your code becomes more complex, it's a very good idea to include automated tests.</p>
+                <ul>
+                        <li>It saves time with regressions</li>
+                        <li>Makes collaborations easier and safer</li>
+                        <li>It's part of a CI/CD pipeline</li>
+                        <li>Gives the project a more professional look when published <br>
+                        Tip: once you have tests, it's trivial to add a CI badge to the README page</li>
+                </ul>
+                <p style="text-align: left;">You probably want <strong>pytest</strong>, but the specific library is not as important as is having tests in first place.</p>
+        </section>
+        <section>
+                <h3>Go deeper</h3>
+                <p style="text-align: left;">Review of the language:<br>
+                <a href="http://www.scipy-lectures.org/intro/language/python_language.html">http://www.scipy-lectures.org/intro/language/python_language.html</a></p>
+                <p style="text-align: left;">A nice introduction to PEP8:<br>
+                    <a href="https://realpython.com/python-pep8/">https://realpython.com/python-pep8</a></p>
+
+                <p style="text-align: left;">Official Python documentation (ensure that it's Python 3):<br>
+                    <a href="https://docs.python.org/3/">https://docs.python.org/3/</a></p>
         </section>
       </div>
     </div>
