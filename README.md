@@ -72,9 +72,6 @@ The Open Source cousin of Sublime2, similar to Atom.
 #### PyCharm
 PyCharm is probably the most luxurious IDE for Python. It contains tons of functions that are a superset of all the above. PyCharm is a great choice for bigger Python projects. Free for non-commercial use.
 
-#### Notepad++
-If you must use a text editor on Windows to edit Python code, refuse to use anything worse than **Notepad++**.
-
 #### Vim
 I know people who are successfully using Vim to write Python code and are happy with it.
 
