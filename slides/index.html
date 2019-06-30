@@ -1,0 +1,377 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Intro to Data Science</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <style>
+        .reveal {
+            /* trick to keep a smaller font when changing theme*/
+            font-size: 33px;
+        }
+        mark {
+            background: #ffa050;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+            <h3>About me: <strong>Jacopo Farina</strong></h3>
+            <div style="display: flex;">
+                <div style="flex: 1;">
+                        <img src="jacopo_farina.png" alt="Face of Jacopo Farina" width="80%"/>
+                </div>
+                <div style="flex: 2;">
+                    <ul>
+                        <li>M. Sc. in Computer Engineering</li>
+                        <li>Working in Flixtech (Flixbus) as a data engineer</li>
+                        <li>6 years of working experience with backend systems, databases, ETL and machine learning</li>
+                        <li>Using Python professionally for 3 years</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="text-align: left;">Github: <a href="https://github.com/jacopofar">jacopofar</a></p>
+            <p style="text-align: left;">E-mail: <a href="mailto: jacopo1.farina@gmail.com">jacopo1.farina@gmail.com</a></p>
+            <p style="text-align: left;">Web: <a href="https://jacopofarina.eu/?dsr">jacopofarina.eu</a></p>
+        </section>
+        <section>
+            <h1>Why Python?</h1>
+        </section>
+        <section>
+            <ul>
+                <li>Easy to learn</li>
+                <li>Concise and elegant</li>
+                <li>Multiple paradigms (OOP, functional)</li>
+                <li>Interpreted, multiplatform, free software</li>
+                <li>Relatively slow per se, but you can move the heavier work to libraries that use low level implementations behind the scene. Will see some of this soon.</li>
+                <li>The most common language for data science, huge collection of
+                libraries and tools available, growing fast</li>
+                <li>Vibrant community, worldwide and in Berlin</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Install Python</h3>
+            <ul>
+                <li><strong>Recommended: Anaconda</strong>
+                    <ul>
+                        <li>For new users who want a full Python environment for Data Science</li>
+                        <li>Free and open source, download from <a href="http://continuum.io/downloads">continuum.io</a></li>
+                    </ul>
+                </li>
+                <li>Manual installation:
+                    <ul>
+                        <li>(Only) if you already have been using Python for some time</li>
+                        <li>pip install -U numpy, scipy, ipython, matplotlib, pandas, scikit-learn</li>
+                        <li>Use virtualenvs to make easier to track dependencies</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+                <h3>Use Python</h3>
+                <p style="text-align: left;">Two (three) ways</p>
+                <ol>
+                    <li>REPL (Read Evaluate print Loop), interactive</li>
+                    <li>Create python (.py) files and pass them to the interpreter</li>
+                    <li>Just use an IDE and let it invoke the interpreter for you</li>
+                </ol>
+        </section>
+        <section>
+                <dl>
+                    <dt>IPython</dt>
+                    <dd>Interactive Python shell and Jupyter, a web-based notebook. Integrate Python code with formatted text, charts and more</dd>
+                    <dt>Numpy + SciPy</dt>
+                    <dd>Provides powerful numerical array objects, and routines to manipulate them. Heavily used by the other packages</dd>
+                    <dt>Matplotlib</dt>
+                    <dd>2- and 3-D visualisations and plots​</dd>
+                    <dt>Scikit-learn</dt>
+                    <dd>Machine Learning toolbox</dd>
+                    <dt>Pandas</dt>
+                    <dd>Tools for explorative analysis</dd>
+                    <dt>Tensorflow, Keras, Pytorch</dt>
+                    <dd>(deep) neural networks</dd>
+                </dl>
+        </section>
+        <section>
+                <h3>Python 2 and Python 3</h3>
+                <p style="text-align: left;">The way Python 2 (2000) manages text, in particular non-English characters, originates problems which could be fixed only by breaking compatibility and releasing Python 3 (2008).</p>
+                <p style="text-align: left;">Many features were added to Python 3 over different versions, the latest is 3.7 (June 2018).</p>
+                <p style="text-align: left;">Python 2 does not receive new functionalities since 2010 and will not be officially supported after <strong>January 1st, 2020</strong></p>
+        </section>
+        <section>
+                <h2>Use Python 3</h2>
+                <p> (Unless you really really really need a library that works only on Python 2)</p>
+        </section>
+        <section>
+                <h3>Python 3.6 and later: f-strings</h3>
+                <pre><code data-trim class="python hljs">
+                    >>> print(f'The result of 3+2 is {3 + 2} and 1/3 is {1/3 :.3f}')
+                    The result of 3+2 is 5 and 1/3 is 0.333
+                </code></pre>
+                <p style="text-align: left;">Also good to know: type hinting, async</p>
+                <pre><code data-trim class="python hljs">
+                    def repeat(a: int, b:str) -> str:
+                        return b * a
+                    </code></pre>
+        </section>
+        <section>
+                <h3>List comprehension</h3>
+                <pre><code data-trim class="python hljs">
+                        [x*10 for x in range(1, 200) if x%2 == 0]
+                </code></pre>
+                <p style="text-align: left;">Similar for sets and dictionaries</p>
+                <pre><code data-trim class="python hljs">
+                        {x % 10 for x in range(200)}
+                        {x:x%10 for x in range(19)}
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Exercise</h3>
+                <p style="text-align: left;">Calculate the sum of all the squares between 1 and 1 million.</p>
+                <p style="text-align: left;">Remember: Python has a built-in function <strong>sum</strong> to sum all the elements of a sequence.</p>
+        </section>
+        <section>
+                <h3>Keyword only arguments</h3>
+                <p>You can create functions which accept optional arguments</p>
+                <pre><code data-trim class="python hljs">
+                    def myfun(a, b, name='John'):
+                        print(f'a * b = {a * b}')
+                        print('your name is {name}')
+                    def anotherfun(a, b, *c):
+                        print(f'you passed {len(c)} extra arguments')
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Exercise: variable number of arguments</h3>
+                <p>Write a function called <strong>mysum</strong> that accepts an arbitrary number of arguments and sum them.</p>
+                <pre><code data-trim class="python hljs">
+                        >>> mysum()
+                        0
+                        >>> mysum(42)
+                        42
+                        >>> mysum(1, 23, 134, .8, 0xB)
+                        169.8
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Exercise: what will this print?</h3>
+                <pre><code data-trim class="python hljs">
+                        a = [1, 3]
+                        b = a
+                        a[1] = 42
+                        print(a)
+                        print(b)
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Exercise: what will this print?</h3>
+                <pre><code data-trim class="python hljs">
+                    def tricky(a=[]):
+                        a.append(1)
+                        print(a)
+
+                    tricky()
+                    tricky([23])
+                    tricky()
+                    tricky([0])
+                    </code></pre>
+                    <p><strong>Avoid</strong> using mutable objects as default arguments.
+                        Numbers, strings, booleans, tuples and None are OK.
+                    </p>
+        </section>
+        <section>
+                <h3>Iterators</h3>
+                <p>In Python you can iterate over many types of values</p>
+                <pre><code data-trim class="python hljs">
+                    for l in "atlantic":
+                        print(l)
+
+                    for line in open('data.txt', 'r'):
+                        print(line)
+
+                    for idx, line in enumerate(open('data.txt', 'r')):
+                        print(idx, line)
+
+                    print(sum(range(10000))) # it's an iterator, is not "materialized"
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Mutable vs. Immutable</h3>
+                <p style="text-align: left;">Immutable data can help you. Avoid creating functions which change the argument, unless it's obviously their goal.</p>
+                <p style="text-align: left;">You can't use mutable values as dictionary keys:</p>
+                <pre><code data-trim class="python hljs">
+                        {
+                            [1,2]: "hello", # this doesn't work
+                            (2,56): [91, 78, ["cat"]] # this is OK
+                        }
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Exercise: frequency count</h3>
+                <p style="text-align: left;">Create a function that given a string return the <strong>two</strong> most frequent characters.</p>
+                <p style="text-align: left;">Extra: can you do that with most frequent <em>words</em> instead?</p>
+        </section>
+        <section>
+                <h3>Slicing</h3>
+                <pre><code data-trim class="python hljs">
+                        l = [12, 13, 14, 15, 900]
+                        >> l[1:4]
+                        [13, 14, 15]
+                        >> l[:2]
+                        [12, 13]
+                        >>l[0:900:2]
+                        [12, 14, 900]
+                        >> l[0:1000:2]
+                        [12, 14, 900]
+                        >> l[-1:-3]
+                        []
+                        >>l[-3:-1]
+                        [14, 15]
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Generators</h3>
+                <p style="text-align: left;">Python3 tries to be as <strong>lazy</strong> as possible: it calculates values only when needed, saving memory and time. This can be critical to process big datasets.</p>
+                <p style="text-align: left;"><code>sum(range(1_000_000_000))</code> does not need to create that many values.</p>
+                <p style="text-align: left;">You can create a function that gives value only when necessary using <strong>yield</strong> instead of return. It give the value back to the caller, but unlike return it preserve the state of the function which can yield again and again.</p>
+                <p style="text-align: left;">Note: when it's simple you can use () instead of [] like with list comprehension.</p>
+        </section>
+        <section>
+                <h3>Exercise: recursion</h3>
+                <p style="text-align: left;">Create a function that returns the N-th Fibonacci number using recursion.</p>
+                <p style="text-align: left;">Hint: Fibonacci number X is just the sum of the two fibonacci numbers at positions X-1 and X-2. The first two Fibonacci numbers are 1 </p>
+                <p style="text-align: left;">Try it with small numbers, then 40, how long does it take? </p>
+        </section>
+        <section>
+                <h3>lru_cache</h3>
+                <pre><code data-trim class="python hljs">
+                        from functools import lru_cache
+                        @lru_cache()
+                        def fibo(n):
+                            if n in [1, 2]:
+                                return 1
+                            else:
+                                return fibo(n-1) + fibo (n-2)
+                        print(fibo(40))
+
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Closures</h3>
+                <p style="text-align: left;">In python everything is an object, including functions.</p>
+                <p style="text-align: left;">When you define a function, it captures values defines outside it. This is called <strong>closure</strong>.</p>
+                <p style="text-align: left;">Exercise: define a function called "adder" which returns a function which add a given value</p>
+
+                <pre><code data-trim class="python hljs">
+                        >>> my_adder = adder(5)
+                        my_adder(100)
+                        105
+                    </code></pre>
+        </section>
+        <section>
+                <h3>Decorators</h3>
+                <p style="text-align: left;">If you write @function_name before defining a function, python will pass it to function_name and replace the original function with its output</p>
+                <p style="text-align: left;">Seems complicated, but an example can help a lot.</p>
+                <p style="text-align: left;"><strong>Example</strong>: a function that prints the value passed to the wrapped one before and after</p>
+                <p style="text-align: left;"><strong>Exercise</strong>: create a decorator which checks that a function was called with a positive number, if not does not invoke it but prints an error instead</p>
+        </section>
+        <section>
+                <h3>Classes</h3>
+                <p style="text-align: left;">OOP is a huge topic, let's review the basis.</p>
+                <p style="text-align: left;">A class defines how its instances behave. "<mark>Mars</mark>" is an instance, "<mark>Planet</mark>" is a class.</p>
+                <p style="text-align: left;">Classes can <strong>inherit</strong> from each other, for example if "GasPlanet" inherits from "Planet", it has all its characteristics plus more. "Saturn" is an instance of "GasPlanet".</p>
+                <p style="text-align: left;">Official documentation <a href="https://docs.python.org/3/tutorial/classes.html">here</a>, but is pretty dense. We'll see an example.</p>
+        </section>
+        <section>
+                <h3>Some words on coding style</h3>
+                <p style="text-align: left;">Don't spend too much time on aesthetic and nitpicking, but being consistent is useful:</p>
+                <ol>
+                        <li>Makes easier to re-read your own code</li>
+                        <li>It helps others read your code</li>
+                        <li>Gives a better impression when the code is published</li>
+                </ol>
+                <p style="text-align: left;">Python has an official style guide called <strong>PEP8</strong>, there are tools for all IDEs to check it as you type, on the long run they help make it an habit.</p>
+                <p style="text-align: left;">If you work on an existing codebase with others, stick with the existing conventions and naming.</p>
+        </section>
+        <section>
+                <h3>Naming</h3>
+                <p style="text-align: left;">Use <strong>meaningful</strong> names. No <emp>asdasd</emp></p>
+                <p style="text-align: left;"><code>UPPERCASE</code> for module constants that are never changed</p>
+                <p style="text-align: left;"><code>CamelCase</code> for classes</p>
+                <p style="text-align: left;"><code>lowercase_with_underscore</code> for everything else (variables and functions)</p>
+        </section>
+        <section>
+                <h3>Docstrings</h3>
+                <p style="text-align: left;">You can document a function like this:</p>
+                <pre><code data-trim class="python hljs">
+                def myfun(a, b):
+                    """What this function does.
+                    Some description for humans.
+                    """
+                    return a * b
+                </code></pre>
+                <p style="text-align: left;">This is the text shown by editors when you type, use it when especially the function is not obvious.</p>
+                <p style="text-align: left;">There are two mainstream standards, numpy and google, about how to format the text. Use whatever the codebase is using, or your taste.</p>
+        </section>
+        <section>
+                <h3>Tests</h3>
+                <p style="text-align: left;">When your code becomes more complex, it's a very good idea to include automated tests.</p>
+                <ul>
+                        <li>It saves time with regressions</li>
+                        <li>Makes collaborations easier and safer</li>
+                        <li>It's part of a CI/CD pipeline</li>
+                        <li>Gives the project a more professional look when published <br>
+                        Tip: once you have tests, it's trivial to add a CI badge to the README page</li>
+                </ul>
+                <p style="text-align: left;">You probably want <strong>pytest</strong>, but the specific library is not as important as is having tests in first place.</p>
+        </section>
+        <section>
+                <h3>Go deeper</h3>
+                <p style="text-align: left;">Review of the language:<br>
+                <a href="http://www.scipy-lectures.org/intro/language/python_language.html">http://www.scipy-lectures.org/intro/language/python_language.html</a></p>
+                <p style="text-align: left;">A nice introduction to PEP8:<br>
+                    <a href="https://realpython.com/python-pep8/">https://realpython.com/python-pep8</a></p>
+
+                <p style="text-align: left;">Official Python documentation (ensure that it's Python 3):<br>
+                    <a href="https://docs.python.org/3/">https://docs.python.org/3/</a></p>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
