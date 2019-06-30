@@ -4,6 +4,7 @@ This repo contains the teaching material for the Introduction to Python (and use
 
 ## Table of contents
 
+* The first two parts are available as Reveal slides, simply run `make showslides`
 * [About Me](#about-me)
 * [The Python Programming Language](#the-python-programming-language)
   * [Why Python?](#why-python)
@@ -13,9 +14,9 @@ This repo contains the teaching material for the Introduction to Python (and use
   * [Running the IPython interpreter and a python file](#running-the-ipython-interpreter-and-a-python-file)
   * [Jupyter Notebook](#jupyter-notebook)
   * [Python basics](#python-basics)
-* [NumPy and Matplotlib](#numpy-and-matplotlib)		
-  * [NumPy](#numpy)		
-  * [Matplotlib](#matplotlib)	
+* [NumPy and Matplotlib](#numpy-and-matplotlib)
+  * [NumPy](#numpy)
+  * [Matplotlib](#matplotlib)
 * [SciPy](#scipy)
 
 
@@ -101,12 +102,12 @@ A brief introduction/recap of ML its terminology. Slides [here](https://docs.goo
 
 ## NumPy and Matplotlib
 
-### NumPy		
-Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). Note: if this link returns an error, move to the [PDF version](https://docs.google.com/viewer?url=http://www.cs.man.ac.uk/~barry/mydocs/MyCOMP28512/MS15_Notes/PyRefs/Tentative_NumPy_Tutorial.pdf).		
-		
-Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html).		
+### NumPy
+Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_Tutorial). Note: if this link returns an error, move to the [PDF version](https://docs.google.com/viewer?url=http://www.cs.man.ac.uk/~barry/mydocs/MyCOMP28512/MS15_Notes/PyRefs/Tentative_NumPy_Tutorial.pdf).
 
-### Matplotlib		
+Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html).
+
+### Matplotlib
 Learn the basics and some more advanced plotting tricks in Matplotlib with this [hands-on tutorial](http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html).
 
 It's also very useful to look at the [gallery](https://matplotlib.org/gallery.html) to find examples of every possible chart you may want.
@@ -120,16 +121,16 @@ Slides are [here](https://docs.google.com/presentation/d/e/2PACX-1vTjCOfNagJZzOj
  * [Tutorial: Introduction to scikit-learn](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-scikit-learn-1-Basics.ipynb)
  * [To go further](http://nbviewer.jupyter.org/github/jakevdp/sklearn_tutorial/blob/master/notebooks/Index.ipynb)
 
-	
-## SciPy
-SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python.				
-[Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.		
 
-For those willing to go further on the statistical aspects of SciPy, I recommend having a look at these IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).	
+## SciPy
+SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python.
+[Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.
+
+For those willing to go further on the statistical aspects of SciPy, I recommend having a look at these IPython Notebooks on [Effect Size](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/effect_size.ipynb), [Random Sampling](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/sampling.ipynb) and [Hypothesis Testing](http://nbviewer.ipython.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scipy/hypothesis.ipynb).
 
 ## License
 
-This repository contains a variety of content: some developed by Amélie Anglade, some derived from or largely inspired by third-parties' work, and some entirely from third-parties.  
-The third-party content is distributed under the license provided by those parties. Any derivative work respects the original licenses, and credits its initial authors. 
+This repository contains a variety of content: some developed by Amélie Anglade, some derived from or largely inspired by third-parties' work, and some entirely from third-parties.
+The third-party content is distributed under the license provided by those parties. Any derivative work respects the original licenses, and credits its initial authors.
 
 Original content developed by Amélie Anglade is distributed under the MIT license.
