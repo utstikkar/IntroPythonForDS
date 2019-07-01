@@ -2,7 +2,6 @@
 This repo contains the teaching material for the Introduction to Python (and useful libraries) masterclass at the [Data Science Retreat](http://datascienceretreat.com/), it does not cover Pandas.
 
 
-
 ## Table of contents
 
 * [About Me](#about-me)
@@ -24,7 +23,7 @@ This repo contains the teaching material for the Introduction to Python (and use
 Slides for this section can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vTbd4eONN5nSiNaTWW3uM2RM3O0jsoVT8gQ9byqa0X5vStBZGUBfiUSM7-HegCjymaDbaUzQ-9yyvMR/pub).
 
 ## The Python Programming Language
-Complete slides [here](https://docs.google.com/presentation/d/e/2PACX-1vRPV8i3pQw7MCa6eG-9y9LgIFREJF_3sN4opFDXQ2r_NJgea9ObLJQfj4S_CiM6Ptxs7t0WU6lCa-QH/pub?start=false&loop=false&delayms=3000), inclusive of exercises
+Complete slides [here](https://docs.google.com/presentation/d/e/2PACX-1vRPV8i3pQw7MCa6eG-9y9LgIFREJF_3sN4opFDXQ2r_NJgea9ObLJQfj4S_CiM6Ptxs7t0WU6lCa-QH/pub?start=false&loop=false&delayms=3000), inclusive of exercises.
 
 Extra links:
  * [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html).
