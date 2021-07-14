@@ -2,9 +2,6 @@
 This big repo contains the teaching material for the Introduction to Python (and useful libraries) masterclass at the [Data Science Retreat](http://datascienceretreat.com/), it does not cover Pandas.
 
 
-uh oh changes
-...change something...
-
 ## Table of contents
 
 * [About Me](#about-me)
