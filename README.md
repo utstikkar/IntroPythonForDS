@@ -1,6 +1,11 @@
 # Intro to Python For Data Science
+
+## Intro in English
 This big repo contains the teaching material for the Introduction to Python (and useful libraries) masterclass at the [Data Science Retreat](http://datascienceretreat.com/), it does not cover Pandas.
-TTTTTTTTTTTTTTT
+
+## Intro in Finnish
+Tämä repo sisältää Suomalaisen version....This big repo contains the teaching material for the Introduction to Python (and useful libraries) masterclass at the [Data Science Retreat](http://datascienceretreat.com/), it does not cover Pandas.
+
 
 ## Table of contents
 
