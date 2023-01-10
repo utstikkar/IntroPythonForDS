@@ -1,7 +1,14 @@
-# Introduction to Python For Data Science
-This repo contains the teaching material for the Introduction to Python (and useful libraries) masterclass at the [Data Science Retreat](http://datascienceretreat.com/).
+# Intro to Python For Data Science
 
-## Table of Content
+## Intro in English
+This big repo contains the teaching material for the Introduction to Python (and useful libraries) masterclass at the [Data Science Retreat](http://datascienceretreat.com/), it does not cover Pandas.
+
+
+## Intro in Finnish
+Tämä repo sisältää Suomalaisen version....This big repo contains the teaching material for the Introduction to Python (and useful libraries) masterclass at the [Data Science Retreat](http://datascienceretreat.com/), it does not cover Pandas.
+
+
+## Table of contents
 
 * [About Me](#about-me)
 * [The Python Programming Language](#the-python-programming-language)
@@ -12,32 +19,30 @@ This repo contains the teaching material for the Introduction to Python (and use
   * [Running the IPython interpreter and a python file](#running-the-ipython-interpreter-and-a-python-file)
   * [Jupyter Notebook](#jupyter-notebook)
   * [Python basics](#python-basics)
-* [Pandas](#pandas)
-  * [Intro tutorial on pandas basics](#intro-tutorials-on-pandas-basics)
-  * [Data Munging with Pandas](#data-munging-with-pandas)
 * [NumPy and Matplotlib](#numpy-and-matplotlib)		
   * [NumPy](#numpy)		
   * [Matplotlib](#matplotlib)	
-* [Scikit-learn and your first Data Science case](#scikit-learn-and-your-first-data-science-case)
-  * [Scikit-learn](#scikit-learn)
-  * [Your first Data Science case](#your-first-data-science-case)
 * [SciPy](#scipy)
 
 
 ## About me
-Slides for this section can be found [here](https://slides.com/utstikkar/introtopython-aboutme).
+Slides for this section can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vTbd4eONN5nSiNaTWW3uM2RM3O0jsoVT8gQ9byqa0X5vStBZGUBfiUSM7-HegCjymaDbaUzQ-9yyvMR/pub).
 
 ## The Python Programming Language
-Slide deck for this entire section is available [here](https://slides.com/utstikkar/introtopython-pythonproglanguage).
+Complete slides [here](https://docs.google.com/presentation/d/e/2PACX-1vRPV8i3pQw7MCa6eG-9y9LgIFREJF_3sN4opFDXQ2r_NJgea9ObLJQfj4S_CiM6Ptxs7t0WU6lCa-QH/pub?start=false&loop=false&delayms=3000), inclusive of exercises.
 
-### Why Python?
-Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/1)
+Extra links:
+ * [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html).
 
-### Python for DS Components
-Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/5)
+Practice those examples using alternatively python files, the IPython interpreter and an IPython Notebook.
+
+To practice:
+* [Python interactive exercises](http://codingbat.com/python)
+* [Join the codewars competitions](http://www.codewars.com/?language=python)
 
 ### Python 2 vs. Python 3
-Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/6)
+
+Note: as explained in the lesson you should now just go with Python 3. These links are from more than 2 years ago but still useful if you need to use old libraries.
 
 A great [notebook](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/key_differences_between_python_2_and_3.ipynb) covering the main differences has been written by Sebastian Raschka.
 
@@ -66,11 +71,11 @@ Interactive environment for the web browser. A Jupyter notebook contains Python 
 #### Sublime2
 A general-purpose text editor that works on all systems. There are many plugins for Python available. There are a free and a commercial version available.
 
-#### Atom
-The Open Source cousin of Sublime2.
+#### Visual Studio Code
+The Open Source cousin of Sublime2, similar to Atom.
 
 #### PyCharm
-PyCharm is probably the most luxurious IDE for Python. It contains tons of functions that are a superset of all the above. PyCharm is a great choice for bigger Python projects.
+PyCharm is probably the most luxurious IDE for Python. It contains tons of functions that are a superset of all the above. PyCharm is a great choice for bigger Python projects. Free for non-commercial use.
 
 #### Notepad++
 If you must use a text editor on Windows to edit Python code, refuse to use anything worse than **Notepad++**.
@@ -85,33 +90,20 @@ I know people who are successfully using Emacs to write Python code, but haven't
 Slides on this topic start [here](http://slides.com/utstikkar/introtopython-pythonproglanguage#/12)
 
 ### Jupyter Notebook
-A live demo will be given during the masterclass.
+A live demo will be given during the masterclass. Here just a [warning note](https://docs.google.com/presentation/d/e/2PACX-1vR2ntOr6vWHgHoC0X3arDtim9fIhaoF7r6Vl5fVjxSXeXpD2NRykOSR_UyQzbtjppD2tiqwkw2peMfQ/pub?start=false&loop=false&delayms=3000)
 
 Experiment further with the IPython Notebook environment with [this Jupyter Notebook](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Notebook/Running%20Code.ipynb).
 Try to clone or download it, before opening it, running and modifying its cells.
 
 Many more Jupyter features in [this blog post](http://arogozhnikov.github.io/2016/09/10/jupyter-features.html).
 
-### Python basics
-Times to get your hands dirty. Read and test for yourself the examples provided in: [The SciPy Lectures -- The Python Language](http://scipy-lectures.github.io/intro/language/python_language.html).
+And of course, be aware of the fact Jupyter is NOT an IDE and can bite you in various ways: [See this presentation](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g3cb1319227_1_388)
 
-Practice those examples using alternatively python files, the IPython interpreter and an IPython Notebook.
+## Git
+Slides are [here](https://docs.google.com/presentation/d/e/2PACX-1vSRDWRpbJpNmtPk5SufekG8bSbBSJGjsua-nf-BxTzS_F2qMkHwmFPzjQlnR6op2pwa0QzL-PTFGikx/pub?start=false&loop=false&delayms=3000)
 
-To practice:
-* [Python interactive exercises](http://codingbat.com/python)
-* [Join the codewars competitions](http://www.codewars.com/?language=python)
-
-## Pandas 
-
-### Intro tutorials on pandas basics
-
- * [Tutorial: Data structures](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-pandas-1-Data-Structures.ipynb)
- * [Tutorial: Working with dataframes](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-pandas-2-Working-With-DataFrames.ipynb)
- * [Tutorial: Using pandas on the MovieLens dataset](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-pandas-3-Pandas-On-MovieLens.ipynb)
-
-### Data munging with pandas
-
- * [Exercises](https://github.com/utstikkar/pandas-tutorial/blob/master/data-munging-with-pandas.ipynb)
+## What is machine learning
+A brief introduction/recap of ML its terminology. Slides [here](https://docs.google.com/presentation/d/e/2PACX-1vRfxH8TbgtOQy24JBu28i12kYrbUquXKu6VZhZC3wyCUdiLW1HqF75mgnLI-EjKHFQUdPeZ-6OYD8G7/pub?start=false&loop=false&delayms=3000)
 
 ## NumPy and Matplotlib
 
@@ -121,26 +113,21 @@ Start with the official [NumPy Tutorial](http://wiki.scipy.org/Tentative_NumPy_T
 Move on to these [exercises](http://scipy-lectures.github.io/intro/numpy/exercises.html).		
 
 ### Matplotlib		
-Learn the basics and some more advanced plotting tricks in Matplotlib with this [hands-on tutorial](http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html).	
+Learn the basics and some more advanced plotting tricks in Matplotlib with this [hands-on tutorial](http://scipy-lectures.github.io/intro/matplotlib/matplotlib.html).
 
-## Scikit-learn and your first Data Science case
+It's also very useful to look at the [gallery](https://matplotlib.org/gallery.html) to find examples of every possible chart you may want.
 
+## Scikit-learn and your first ML case
+
+Slides are [here](https://docs.google.com/presentation/d/e/2PACX-1vTjCOfNagJZzOjovAPgNBkVxcddNlKbWZ5oxEjicbuFyEwpAbMjG8m7x0tx3xjqUyKkoYFh0rysWRNL/pub?start=false&loop=false&delayms=3000)
 ### Scikit-learn
  * Introduction to machine learning with scikit-learn [slides](http://slides.com/luciasantamaria/intro-machine-learning-scikit-learn#/)
  * Doing machine learning with scikit-learn [slides](https://github.com/luciasantamaria/pandas-tutorial/blob/master/scikit-learn.pdf)
  * [Tutorial: Introduction to scikit-learn](https://github.com/utstikkar/pandas-tutorial/blob/master/intro-to-scikit-learn-1-Basics.ipynb)
  * [To go further](http://nbviewer.jupyter.org/github/jakevdp/sklearn_tutorial/blob/master/notebooks/Index.ipynb)
- 
-## Your first data science case
-
-A great source of data problems nowadays is the Kaggle platform. We'll be starting today with a simple but representative dataset: [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic).
-
- * [Guide](https://github.com/luciasantamaria/pandas-tutorial/blob/master/titanic-machine-learning.ipynb) for orientation to approach the problem
-
-IMPORTANT: you will find plenty of materials to analyze this data, however you'll learn the most if you give the problem some thought and try out several things before resorting to ready-made answers. 
 
 	
-## SciPy		
+## SciPy
 SciPy is a collection of mathematical algorithms and convenience functions built on the Numpy extension of Python.				
 [Here](http://scipy-lectures.github.io/intro/scipy.html) is a hands-on overview of this collection, together with practical exercises and more advanced problems.		
 
