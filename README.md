@@ -139,3 +139,5 @@ This repository contains a variety of content: some developed by Amélie Anglade
 The third-party content is distributed under the license provided by those parties. Any derivative work respects the original licenses, and credits its initial authors. 
 
 Original content developed by Amélie Anglade is distributed under the MIT license.
+
+## stupid things
