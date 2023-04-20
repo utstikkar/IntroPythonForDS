@@ -62,8 +62,10 @@ Standard editor in Python distributions, easy to use but very basic.
 #### IPython
 A more sophisticated interactive Python command line. It incorporates tab-completion, interactive help and regular shell commands. Also look up the `%`-magic commands.
 
+
 #### Spyder
 **Spyder** is part of the **Anaconda** Python distribution. It is a small IDE mostly for data analysis, similar to RStudio. It automatically highlights Syntax errors, contains a variable explorer, debugging functionality and other useful things.
+
 
 #### Jupyter Notebooks
 Interactive environment for the web browser. A Jupyter notebook contains Python code, text, images and any output from your program (including plots!). It is a great tool for exploratory data analysis.
