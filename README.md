@@ -8,6 +8,7 @@ This big repo contains the teaching material for the Introduction to Python (and
 Tämä repo sisältää Suomalaisen version....This big repo contains the teaching material for the Introduction to Python (and useful libraries) masterclass at the [Data Science Retreat](http://datascienceretreat.com/), it does not cover Pandas.
 
 ## Intro in Cherokee
+ᎯᎠ ᎡᏆ ᎣᏍᏓ ᎨᏒ, ᎬᏂᎨᏒ ᎢᏧᏩᏁᏗᏱ ᎬᏂᎨᏒ ᏅᏓᏍᎩᏴᏁᎵ.
 
 ## Table of contents
 
