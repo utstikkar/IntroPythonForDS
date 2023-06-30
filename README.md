@@ -1,5 +1,3 @@
-blabla
-
 # Intro to Python For Data Science
 
 ## Intro in English
@@ -11,6 +9,9 @@ Tämä repo sisältää Suomalaisen version....This big repo contains the teachi
 
 # some other change that will cause conflicts
 here it is
+
+## Intro in italian
+Questo repository contiene il materiale originale del corso di Python per DSR, ora esperimenti su git.
 
 ## Intro in Cherokee
 ᎯᎠ ᎡᏆ ᎣᏍᏓ ᎨᏒ, ᎬᏂᎨᏒ ᎢᏧᏩᏁᏗᏱ ᎬᏂᎨᏒ ᏅᏓᏍᎩᏴᏁᎵ.
@@ -65,6 +66,9 @@ The most basic interactive Python command line, where each line starts with a `>
 
 #### IDLE
 Standard editor in Python distributions, easy to use but very basic.
+
+###ADD-ME
+added add me
 
 #### IPython
 A more sophisticated interactive Python command line. It incorporates tab-completion, interactive help and regular shell commands. Also look up the `%`-magic commands.
